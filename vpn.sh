@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # Install pptpd
+yum -y install epel-release
 rpm -Uvh http://linux.mirrors.es.net/fedora-epel//epel-release-latest-7.noarch.rpm
 yum -y install ppp pptpd
 
